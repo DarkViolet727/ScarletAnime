@@ -1,0 +1,40 @@
+﻿@page "/"
+@inject ITitleService TitleService
+
+<h3>Anime Titles</h3>
+
+@if (titles == null)
+{
+<p><em>Loading...</em></p>
+}
+else
+{
+<table class="table">
+    <thead>
+    <tr>
+        <th>Japanese Name</th>
+        <th>Russian Name</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var title in titles)
+    {
+    <tr>
+        <td>@title.jap_name</td>
+        <td>@title.rus_name</td>
+        <td>@title.description</td>
+    </tr>
+    }
+    </tbody>
+</table>
+}
+
+@code {
+private List<Title> titles;
+
+protected override async Task OnInitializedAsync()
+{
+titles = await TitleService.GetTitles();
+}
+}

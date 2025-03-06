@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MangaFree\\ScarletAnime\\ScarletAnime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ScarletAnime.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ScarletAnime.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\MangaFree\\ScarletAnime\\ScarletAnime\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\MangaFree\\ScarletAnime\\ScarletAnime\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\MangaFree\\ScarletAnime\\ScarletAnime\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\MangaFree\\ScarletAnime\\ScarletAnime\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ScarletAnime.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ScarletAnime.props",
+      "PackagePath": "build\\ScarletAnime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ScarletAnime.props",
+      "PackagePath": "buildMultiTargeting\\ScarletAnime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ScarletAnime.props",
+      "PackagePath": "buildTransitive\\ScarletAnime.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
